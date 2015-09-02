@@ -1,0 +1,68 @@
+* {
+        margin: 0;
+        padding: 0
+    }
+    
+    #trackbox {
+        width: 220px;
+        overflow: auto;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+        margin: 10px;
+
+    }
+    
+    .trackbar {
+        background: url(http://7xk72e.com1.z0.glb.clouddn.com/Bg1.png);
+        height: 35px;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
+    
+    .trackbar:nth-child(even) {
+        background: url(http://7xk72e.com1.z0.glb.clouddn.com/Bg1.png);
+        /*  background:#ddd*/
+    }
+    
+    .playbutton {
+        opacity: 1;
+        display: block;
+        float: left;
+        width: 25px;
+        height: 25px;
+        margin: 5px 0px 0px 14px;
+        background: url(http://7xk72e.com1.z0.glb.clouddn.com/music2.png) no-repeat;
+        border: none;
+        cursor: pointer;
+        outline: none;
+
+	-webkit-animation: pulse linear 1.6s infinite;
+	animation: pulse linear 1.6s infinite;
+}
+/*@-webkit-keyframes pulse {
+	0% { transform:rotate(0deg); } 
+	50% { transform:rotate(180deg); } 
+	100% { transform:rotate(360deg); }
+}
+@keyframes pulse {
+	0% { transform:rotate(0deg); } 
+	50% { transform:rotate(180deg); } 
+	100% { transform:rotate(360deg); }
+}
+*/
+    
+
+.playbutton:hover {
+    opacity: 1;
+    background: url(http://7xk72e.com1.z0.glb.clouddn.com/music1.png) no-repeat;
+}
+.trackbar{
+	border-bottom:1px solid #333; 
+}
+.trackname {
+    float: left;
+    color: #fff;
+    margin: 0 0 0 14px;
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.95);
+}
